@@ -1,9 +1,9 @@
-# :package_description
+# extension models for the laravel attachments model
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![run-tests](https://github.com/cruxinator/laravel-strings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Check & fix styling](https://github.com/cruxinator/laravel-strings/actions/workflows/php-cs-fixer.yml/badge.svg)](https://:vendor_slug/:package_slug/laravel-strings/actions/workflows/php-cs-fixer.yml)
-[![PHPStan](https://github.com/cruxinator/laravel-strings/actions/workflows/phpstan.yml/badge.svg)](https://github.com/:vendor_slug/:package_slug/actions/workflows/phpstan.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/cruxinator/laravel-attachments-media.svg?style=flat-square)](https://packagist.org/packages/cruxinator/laravel-attachments-media)
+[![run-tests](https://github.com/cruxinator/laravel-strings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/cruxinator/laravel-attachments-media/actions/workflows/run-tests.yml)
+[![Check & fix styling](https://github.com/cruxinator/laravel-strings/actions/workflows/php-cs-fixer.yml/badge.svg)](https://cruxinator/laravel-attachments-media/laravel-strings/actions/workflows/php-cs-fixer.yml)
+[![PHPStan](https://github.com/cruxinator/laravel-strings/actions/workflows/phpstan.yml/badge.svg)](https://github.com/cruxinator/laravel-attachments-media/actions/workflows/phpstan.yml)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
@@ -14,20 +14,20 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require cruxinator/laravel-attachments-media
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-migrations"
+php artisan vendor:publish --tag="laravel-attachments-media-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-config"
+php artisan vendor:publish --tag="laravel-attachments-media-config"
 ```
 
 This is the contents of the published config file:
@@ -40,14 +40,14 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-views"
+php artisan vendor:publish --tag="laravel-attachments-media-views"
 ```
 
 ## Usage
 
 ```php
-$variable = new VendorName\Skeleton();
-echo $variable->echoPhrase('Hello, VendorName!');
+$laravelAttachmentsMedia = new Cruxinator\LaravelAttachmentsMedia();
+echo $laravelAttachmentsMedia->echoPhrase('Hello, Cruxinator!');
 ```
 
 ## Testing
@@ -70,7 +70,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Christopher Harris](https://github.com/cruxinator)
 - [All Contributors](../../contributors)
 
 ## License

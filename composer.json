@@ -1,23 +1,24 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "cruxinator/laravel-attachments-media",
+    "description": "extension models for the laravel attachments model",
     "keywords": [
-        ":vendor_name",
+        "cruxinator",
         "laravel",
-        ":package_slug"
+        "laravel-attachments-media"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/cruxinator/laravel-attachments-media",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Christopher Harris",
+            "email": "c.harris@multitel.com.au",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "cruxinator/laravel-package": "dev-main"
+        "cruxinator/laravel-package": "dev-main",
+        "cruxinator/laravel-attachments": "*"
 
     },
     "require-dev": {
@@ -31,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Cruxinator\\LaravelAttachmentsMedia\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Cruxinator\\LaravelAttachmentsMedia\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Cruxinator\\LaravelAttachmentsMedia\\LaravelAttachmentsMediaServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelAttachmentsMedia": "Cruxinator\\LaravelAttachmentsMedia\\Facades\\LaravelAttachmentsMedia"
             }
         }
     },

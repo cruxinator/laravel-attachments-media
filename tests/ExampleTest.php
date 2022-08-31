@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Cruxinator\LaravelAttachmentsMedia\Tests;
 
 class ExampleTest extends TestCase
 {
