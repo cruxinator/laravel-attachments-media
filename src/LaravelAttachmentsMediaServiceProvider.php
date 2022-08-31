@@ -4,7 +4,6 @@ namespace Cruxinator\LaravelAttachmentsMedia;
 
 use Cruxinator\Package\Package;
 use Cruxinator\Package\PackageServiceProvider;
-use Cruxinator\LaravelAttachmentsMedia\Commands\LaravelAttachmentsMediaCommand;
 
 class LaravelAttachmentsMediaServiceProvider extends PackageServiceProvider
 {
@@ -18,6 +17,6 @@ class LaravelAttachmentsMediaServiceProvider extends PackageServiceProvider
         Cruxinator\LaravelAttachmentsMedia\Models\Document::class,
         Cruxinator\LaravelAttachmentsMedia\Models\Archive::class,
     ]);
-        config(['attachment_sub_models' =>$subModules]);
+        config(['attachment_sub_models' => $subModules]);
     }
 }
