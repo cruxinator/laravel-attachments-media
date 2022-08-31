@@ -2,6 +2,8 @@
 
 namespace Cruxinator\LaravelAttachmentsMedia\Models;
 
+use Cruxinator\Attachments\Models\Attachment;
+
 abstract class Media extends Attachment
 {
     public static $singleTableSubclasses = [
