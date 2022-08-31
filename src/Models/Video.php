@@ -5,7 +5,7 @@ namespace Cruxinator\LaravelAttachmentsMedia\Models;
 use App\Utils\GifTranscodeFilter;
 use App\Utils\PixelFormatFilter;
 use App\Utils\VideoMuteFilter;
-use Cruxinator\Attachments\Contracts\IPreviewable;
+use Cruxinator\LaravelAttachmentsMedia\Contracts\IPreviewable;
 use Cruxinator\Attachments\Traits\HasAttachments;
 use Cruxinator\Package\Strings\MyStr;
 use Cruxinator\TemporaryDirectory\TemporaryDirectory;
